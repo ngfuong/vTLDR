@@ -1,0 +1,6 @@
+training/*
+vietnews-master/*
+vncorenlp/*
+venv/*
+.idea/*
+__pycache__/*
