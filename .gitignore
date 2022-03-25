@@ -1,6 +1,5 @@
-training/*
+training/checkpoint-*
 vietnews-master/*
-vncorenlp/*
 venv/*
 .idea/*
 __pycache__/*

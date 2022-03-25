@@ -1,0 +1,65 @@
+The `config.pad_token_id` is `None`. Using `config.eos_token_id` = 2 for padding..
+/usr/local/lib/python3.7/dist-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+
+[10239/65890 1:23:36 < 7:34:31, 2.04 it/s, Epoch 1.55/10]
+Step 	Training Loss
+200 	9.404488
+400 	7.408282
+600 	6.630220
+800 	5.836143
+1000 	5.176360
+1200 	4.769323
+1400 	4.518239
+1600 	4.301407
+1800 	4.154233
+2000 	4.045775
+2200 	3.974866
+2400 	3.902679
+2600 	3.865450
+2800 	3.790794
+3000 	3.758229
+3200 	3.723124
+3400 	3.644424
+3600 	3.613762
+3800 	3.568249
+4000 	3.505185
+4200 	3.501217
+4400 	3.487029
+4600 	3.449998
+4800 	3.407077
+5000 	3.361498
+5200 	3.369501
+5400 	3.370093
+5600 	3.340960
+5800 	3.310715
+6000 	3.300284
+6200 	3.304169
+6400 	3.277184
+6600 	3.227337
+6800 	2.978911
+7000 	2.977995
+7200 	2.980317
+7400 	3.003031
+7600 	2.987753
+7800 	2.997092
+8000 	2.946583
+8200 	2.972120
+8400 	2.956895
+8600 	2.942101
+8800 	2.932049
+9000 	2.955269
+9200 	2.927247
+9400 	2.921936
+9600 	2.920149
+9800 	2.907613
+10000 	2.924807
+10200 	2.887505
+
+test_df[:1000]
+rouge1
+Score(precision=0.62925585204438, recall=0.5349992945066486, fmeasure=0.5674942084611331)
+rouge2
+Score(precision=0.271653278213832, recall=0.2311836097490207, fmeasure=0.24507158135901824)
+rougeL
+Score(precision=0.40263308514472357, recall=0.3429744288989793, fmeasure=0.36353391800552015)
