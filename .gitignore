@@ -1,4 +1,5 @@
 training/checkpoint-*
+training/log_*
 vietnews-master/*
 venv/*
 .idea/*
