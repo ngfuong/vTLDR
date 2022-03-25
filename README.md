@@ -4,6 +4,7 @@ Using PhoBERT pretrain, vTLDR provides a seq2seq model that performs the mini do
 A GUI for users to input plain text or news URL (only supports _tuoitre.vn_ domain at the moment) and output respective summary.
 
 Notebook train_test_infer guide: [Colab](https://drive.google.com/file/d/1D6GyXRPnCqzWqATZsQodMzA3BkW70MK1/view?usp=sharing)
+App demo video: [Youtube](https://youtu.be/ZDzRD2feEUE)
 ## Usage
 ### Installation
 Clone repo
