@@ -1,0 +1,9 @@
+vncorenlp
+datasets==1.0.2
+transformers==4.1.1
+rouge_score
+PyYAML
+torch
+requests
+bs4
+tk
